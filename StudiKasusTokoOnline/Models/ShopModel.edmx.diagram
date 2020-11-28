@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3a74188c9f57458fb3bab85d6cf42126" Name="Diagram1">
+        <EntityTypeShape EntityType="SampleShopDbModel.Author" Width="1.5" PointX="4.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleShopDbModel.Book" Width="1.5" PointX="2.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleShopDbModel.Category" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleShopDbModel.OrderDetail" Width="1.5" PointX="6.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleShopDbModel.Order" Width="1.5" PointX="6.125" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleShopDbModel.Review" Width="1.5" PointX="0.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleShopDbModel.ShoppingCart" Width="1.5" PointX="4.375" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="SampleShopDbModel.FK_Books_Authors" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleShopDbModel.FK_Books_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleShopDbModel.FK_OrderDetails_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleShopDbModel.FK_Reviews_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleShopDbModel.FK_ShoppingCart_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleShopDbModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
